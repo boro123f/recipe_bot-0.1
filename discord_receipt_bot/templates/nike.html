@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nike Receipt</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { color: #111; }
+    </style>
+</head>
+<body>
+    <h1>Thank you for your purchase, {{ name }}!</h1>
+    <p>Brand: Nike</p>
+    <p>Product: {{ product_name }}</p>
+    <p>Size: {{ size }}</p>
+    <p>Product Number: {{ product_number }}</p>
+    <p>Quantity: {{ quantity }}</p>
+    <p>Price per item: ${{ price }}</p>
+    <p>Shipping: ${{ shipping }}</p>
+    <p>Tax: ${{ tax }}</p>
+    <h3>Total: ${{ total }}</h3>
+    <p>Payment: {{ payment_method }}</p>
+    <p>Date: {{ date }}</p>
+</body>
+</html>
